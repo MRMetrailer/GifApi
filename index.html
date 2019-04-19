@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Foods</title>
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Volkhov" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/food.jpg" alt="food" style="width:100%;">
+        <text>Favorite Foods</text>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" id="display-buttons"></div>
+            <div class="col-md-3">
+                <form id="form">
+                    <label for="user-input">Enter Your Favorite Food</label><br>
+                    <input type="text" id="user-input">
+                    <input id="submitPress" type="submit" value="Submit" class="btn btn-dark" style="margin: 5px">
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="display-images"></div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

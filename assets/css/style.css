@@ -1,0 +1,34 @@
+body {
+	background: url('../images/food.png');
+}
+
+header {
+	position: relative;
+	color: rgb(0, 0, 0);
+	font-family: 'Volkhov', serif;
+}
+
+text {
+	font-size: 3rem;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1rem;
+	margin: 5px;
+}
+
+.holder {
+	float: left;
+	margin: 10px;
+}
+
+@media screen and (max-width: 680px) {
+    text {
+		font-size: 2rem;
+	}
+}
