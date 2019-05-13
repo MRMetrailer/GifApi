@@ -8,4 +8,5 @@
     The user begins by either clicking on one of my favorite food buttons or by entering their favorite food in the search box thus creating a new button.
     On button click 10 still gifs will populate the page.
     When the user clicks on a gif the gif will animate.
-     
+    
+    https://mrmetrailer.github.io/GifApi/
